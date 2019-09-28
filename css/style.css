@@ -41,7 +41,7 @@
 
 /* M  A  I  N */
 .btn {
-    margin: 0 auto;
+    margin: 1rem auto;
     background-color: transparent;
     color: var(--branco);
     text-transform: uppercase;
@@ -90,6 +90,7 @@
 }
 .secao p {
     padding: .5rem 2rem;
+    text-align: justify;
 }
 
 /* F O O T E R */
