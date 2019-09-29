@@ -1,6 +1,6 @@
 /* banner */
 .banner {
-    background: url(".././images/banner-home.jpg") no-repeat center;
+    background: url(".././images/banner-sobre.jpg") no-repeat center;
     background-size: cover;
     padding: 2rem 1.25rem;
     color: var(--branco);

@@ -1,6 +1,6 @@
 /* banner */
 .banner {
-    background: url(".././images/banner-home.jpg") no-repeat center;
+    background: url(".././images/banner-produtos.jpg") no-repeat center;
     background-size: cover;
     padding: 2rem 1.25rem;
     color: var(--branco);
@@ -40,4 +40,8 @@
     font-style: normal;
     text-transform: uppercase;
     letter-spacing: .1rem;    
+}
+
+.product-list {
+    padding: 2rem 2.5rem;
 }

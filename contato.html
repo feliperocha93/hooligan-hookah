@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <script src="https://kit.fontawesome.com/1a10c0804e.js" crossorigin="anonymous"></script>
-    <title>Home</title>
+    <title>Contato</title>
 </head>
 <body>
     <header>
@@ -31,58 +31,71 @@
         </nav>
 
         <div class="banner">
-            <h1>Fabricante de Rosh para Arguile</h1>
+            <h1>Contato</h1>
             <blockquote>
                 <p><em>"Quem faz a sessão? <span class="banner-span-hash">#</span><span class="banner-span-text">AHooliganfaz</span>"</em></p>
                 <cite>Hooligan Hookah</cite>
             </blockquote>
-            <p>Disponível em diversos distribuidores do país!</p>
-            <a class="btn">clique e confira!</a>
         </div>
 
     </header>
 
     <main class="container">
         
-        <section class="produtos secao">
-            <h2 class="sub-title">Produtos</h2>
-            <div class="produtos-carrosel">
-                <div class="siema">
-                    <div>
-                        <img src="./images/produtos-1.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./images/produtos-1.jpg" alt="">
-                    </div>
-                    <div>
-                        <img src="./images/produtos-1.jpg" alt="">
-                    </div>
-                </div>
-                <!-- <button class="prev" onclick="mySiema.prev()"></button>
-                <button class="next" onclick="mySiema.next()"></button> -->
-            </div>
-            <div class="center">
-                <p>Os nossos Roshs são feitos totalmente por um trabalho manual, que garante a máxima qualidade e cuidado com o produto. Deslize ou clique para conhecê-los.</p>
-                <a class="btn">Produtos</a>
+        <section class="secao contato-dados">
+            <h2 class="sub-title">Dados</h2>
+            <ul class="main-footer-list">
+                <li>Email: joao@hooliganhookah.com.br</li>
+                <li>Tel: (11)94258-2223</li>
+                <li>CEO: João Carlos Genuíno de Andrade</li>
+            </ul>
+        </section>
+        
+        <section class="secao contato-redes-sociais">
+            <h2 class="sub-title">Redes sociais</h2>
+            <p>A hooligan está presente nas redes sociais cebolhas alhos Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nobis, nam incidunt cumque iste minima ipsam assumenda fugit saepe at corporis numquam repudiandae obcaecati veritatis repellat officia. Veniam, corrupti doloribus?</p>
+            <div class="flex">
+                <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
+                    <img src="./images/facebook-hooligan-hookah-48.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
+                    <img src="./images/facebook-hooligan-hookah-48-hover.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
+                </a>
+                <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
+                    <img src="./images/instagram-hooligan-hookah-48.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
+                    <img src="./images/instagram-hooligan-hookah-48-hover.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
+                </a>
+                <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
+                    <img src="./images/youtube-hooligan-hookah-48.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
+                    <img src="./images/youtube-hooligan-hookah-48-hover.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
+                </a>
             </div>
         </section>
 
-        <section class="sobre secao">
-            <h2 class="sub-title">Sobre Nós</h2>
-            <div class="center">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus repellendus autem ea atque, quisquam pariatur animi alias tempore numquam consequatur dicta, culpa magnam ex labore cupiditate. Voluptatem minima dolor placeat?Eveniet eius recusandae odit dolorem itaque! Repellendus repudiandae odit magni totam amet excepturi? Voluptate sint porro aperiam quisquam, mollitia molestiae natus molestias ullam ipsum hic ut eos? Vero, suscipit dignissimos.</p>
-                <a href="/sobre.html" class="btn">Saiba mais</a>
-            </div>
+        <section class="secao">
+            <h2 class="sub-title">Contato</h2>
+            <form action="" class="form-contato">
+                <label for="nome">Nome</label>
+                <input name="nome" type="text">
+                <label for="email">E-mail</label>
+                <input name="email" type="email">
+                <label for="telefone">Telefone</label>
+                <input name="telefone" type="tel">
+                <label for="assunto">Assunto</label>
+                <select name="assunto" id="assunto">
+                    <option value="">Assunto 1</option>
+                    <option value="">Assunto 2</option>
+                    <option value="">Assunto 3</option>
+                </select>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem"></textarea>
+                <button class="btn">Enviar</button>
+            </form>
         </section>
 
-        <section class="galeria secao">
-            <h2 class="sub-title">Galeria</h2>
-            <a href="javascript:void(0)">
-                <img class="responsive" src="./images/banner-distribuidores.jpg" alt="Link para galeria de fotos do rosh Hooligan Hookah" title="Veja fotos do Zeffa Bowl">
-            </a>
+        <section class="secao">
+            <h2 class="sub-title">Distribuidores</h2>
             <div class="center">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sunt, et fuga non corrupti fugit quas tempora maiores reprehenderit, saepe a modi sit recusandae obcaecati illum temporibus unde veniam! Molestias!</p>
-                <a class="btn">Ver mais</a>
+                <p>Nossos produtos estão disponíveis em diversos distribuidores espalhados pelo país. Clique no botão abaixo para conhecer nosso parceiros.</p>
+                <a href="/distribuidores.html" class="btn">Distribuidores</a>
             </div>
         </section>
 
@@ -127,6 +140,5 @@
 
     <script src="./script/siema.min.js"></script>
     <script src="./script/main.js"></script>
-    <script src="./script/home.js"></script>
 </body>
 </html>

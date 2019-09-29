@@ -1,0 +1,99 @@
+/* banner */
+.banner {
+    background: url(".././images/banner-contato.jpg") no-repeat center;
+    background-size: cover;
+    padding: 2rem 1.25rem;
+    color: var(--branco);
+    text-align: center;
+}
+.banner * {
+    margin-bottom: 1rem;
+}
+.banner > h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.banner > blockquote > p::after,
+.banner > blockquote > p::before {
+    content: '';
+    display: block;
+    margin: .375rem auto;
+    width: 30%;
+    height: 2px;
+    background-color: var(--branco);
+}
+.banner .banner-span-hash {
+    margin-left: 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 1px 1px var(--preto);
+}
+.banner .banner-span-text {
+    color: var(--cor);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px var(--preto);
+}
+.banner > blockquote > cite {
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1rem;    
+}
+
+.contato-dados > ul {
+    padding: 2rem 2.5rem;
+}
+
+.contato-redes-sociais > div {
+    padding: 2rem 2.5rem;
+}
+
+.form-contato {
+    padding: .5rem 2rem;
+    
+}
+.form-contato * {
+    display: block;
+}
+.form-contato > input {
+    background-color: transparent;
+    border: none;
+    border-bottom: .15rem solid var(--cor);
+    color: var(--branco);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    padding: .2rem;
+    text-indent: .25rem;
+    width: 100%;
+}
+.form-contato > label {
+    font-size: 1.25rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+.form-contato > select {
+    background-color: transparent;
+    border: none;
+    border-bottom: .15rem solid var(--cor);
+    color: var(--branco);
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    padding: .2rem;
+    width: 100%;
+}
+.form-contato > textarea {
+    background-color: transparent;
+    border: .15rem solid var(--cor);
+    border-radius: .25rem; 
+    color: var(--branco);
+    font-size: 1rem;
+    height: 10rem;
+    padding: .25rem;
+    width: 100%;
+}
+
+

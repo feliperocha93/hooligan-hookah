@@ -45,18 +45,21 @@
     line-height: 3rem;
     text-transform: uppercase;
  }
- .main-menu-links > img{
+ .main-menu-links > img {
     margin-top: 2rem;
  }
 
 /* M  A  I  N */
 .btn {
-    margin: 1rem auto;
     background-color: transparent;
-    color: var(--branco);
-    text-transform: uppercase;
     border: .1rem solid var(--branco);
     border-radius: .25rem;
+    color: var(--branco);
+    cursor: pointer;
+    display: inline-block;
+    margin: 1rem auto;
+    padding: .375rem .75rem;
+    text-transform: uppercase;
 }
 .center {
     text-align: center;
@@ -67,6 +70,23 @@
 .flex {
     display: flex;
     justify-content: space-between;
+}
+.mini-title {
+    margin: 0 .5rem 1rem .5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.mini-title::before {
+    content: '';
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: .5rem;
+    width: .25rem;
+    height: 1.2rem;
+    background: var(--cor);
+}
+.p-225 {
+    padding: 2rem 2.5rem;
 }
 .responsive {
     max-width: 100%;
