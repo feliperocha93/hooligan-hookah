@@ -41,3 +41,32 @@
     text-transform: uppercase;
     letter-spacing: .1rem;    
 }
+
+.distribuidores-title {
+    font-size: 1.25rem;
+    margin: .5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.distribuidores-title::after {
+    background: var(--cor);
+    content: '';
+    display: block;
+    height: .2rem;
+    margin: .2rem auto;
+    width: 40%;
+}
+.distribuidores-card > ul > li + li {
+    margin-bottom: .2rem;
+}
+.distribuidores-card > ul > li > a {
+    text-shadow: .1px .1px var(--color);
+    font-style: italic;
+}
+
+
+
+.distribuidores-item:not(:last-child){
+    margin-bottom: 2rem;
+}
+

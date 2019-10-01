@@ -85,7 +85,10 @@
     height: 1.2rem;
     background: var(--cor);
 }
-.p-225 {
+.pd-05-20 {
+    padding: .5rem 2rem;
+}
+.pd-20-25 {
     padding: 2rem 2.5rem;
 }
 .responsive {
@@ -110,7 +113,7 @@
     float: right;
 }
 .secao {
-    padding: 30px 0;
+    padding: 2rem 0;
 }
 .secao:nth-child(odd) {
     background-color: var(--preto2);
