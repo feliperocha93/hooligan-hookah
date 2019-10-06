@@ -41,3 +41,40 @@
     text-transform: uppercase;
     letter-spacing: .1rem;    
 }
+
+.sobre-valores {
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobre-valores > article {
+    margin-bottom: 1.5rem;
+}
+
+
+@media only screen and (min-width: 576px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .sobre-valores {
+        margin: 0 3rem;
+    }
+    .sobre-valores p {
+        padding: 1rem;
+        width: auto;
+    }
+    .sobre-valores > article {
+        width: 33%;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .sobre-valores {
+        margin: 0 auto;
+        width: 768px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+
+}

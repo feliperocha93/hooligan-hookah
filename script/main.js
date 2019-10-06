@@ -1,9 +1,8 @@
 const menuButton = document.querySelector('.top-header > i');
 const mainMenu = document.querySelector('.main-menu');
-const menuWidth = mainMenu.getBoundingClientRect().width;
 
 function outsideClick(e) {
-    if (e.touches[0].clientX > menuWidth) {
+    if (e.touches[0].clientX > mainMenu.getBoundingClientRect().width) {
         mainMenu.classList.remove('active');
         document.removeEventListener('touchstart', outsideClick);
     } 

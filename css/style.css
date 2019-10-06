@@ -1,21 +1,23 @@
 :root {
     --preto: #000;
     --preto2: rgba(0,0,0,.925);
-    --branco: #fff;
+    --branco: #ffe;
     --cinza: #605959;
     --cor: #ff4747;
 }
 /* H E A D E R */
-.top-header {
-    width: 100%;
-    height: 52px;
+.header {
     background-color: var(--preto);
+}
+.top-header {
+    height: 52px;
     text-align: center;
+    width: 100%;
 }
 .top-header .fa-bars {
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
 }
 .top-header > * {
     padding: 10px 15px;
@@ -45,6 +47,9 @@
     line-height: 3rem;
     text-transform: uppercase;
  }
+ .main-menu-links > li > a:hover {
+    transition: color .8s ease;
+}
  .main-menu-links > img {
     margin-top: 2rem;
  }
@@ -54,22 +59,27 @@
     background-color: transparent;
     border: .1rem solid var(--branco);
     border-radius: .25rem;
+    box-shadow: 0 0 1px var(--branco);
     color: var(--branco);
     cursor: pointer;
     display: inline-block;
     margin: 1rem auto;
     padding: .375rem .75rem;
     text-transform: uppercase;
+    transition: border .8s ease, box-shadow .8s ease;
 }
 .center {
     text-align: center;
 }
 .container {
-    width: 100%;
+    padding: 2rem 2.5rem;
 }
 .flex {
     display: flex;
     justify-content: space-between;
+}
+.img-responsive {
+    max-width: 100%;
 }
 .mini-title {
     margin: 0 .5rem 1rem .5rem;
@@ -109,8 +119,8 @@
 }
 .sub-title::after {
     content: url('../images/shisha-branco.png');
-    margin-right: 10px;
     float: right;
+    margin-right: 10px;
 }
 .secao {
     padding: 2rem 0;
@@ -123,15 +133,16 @@
 }
 .secao p {
     padding: .5rem 2rem;
-    text-align: justify;
+    text-align: left;
 }
-
+.siema > div > div {
+    text-align: center;
+}
 /* F O O T E R */
 .main-footer {
     background-color: var(--cinza);
-    padding: 2rem 2.5rem;
 }
-.main-footer > div + div {
+.main-footer > .container > div + div {
     margin-top: 2rem;
 }
 .main-footer-list > li + li {
@@ -151,13 +162,6 @@
 .main-footer-link > img + img {
     display: none;
 }
-/* .main-footer-link > img:first-child {
-    position: absolute;
-    transition: opacity .8s ease;
-}
-.main-footer-link:hover > img:first-child {
-    opacity: 0;
-} */
 .rodape {
     margin: 0;
     padding: 10px;
@@ -179,6 +183,141 @@
     background: var(--cor);
 }
 
+@media only screen and (min-width: 576px) {
+    .mini-title {
+        margin:  1rem 3rem;
+    }
+    .secao p {
+        width: 80%;
+        margin: 0 auto 1rem auto;
+    }
+    .sub-title {
+        margin: 0 3rem 2rem 3rem;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+        width: 700px;
+    }
+    .mini-title {
+        margin: 0;
+    }
+    .mini-title::before {
+        width: .2rem;
+    }
+    .secao p {
+        width: 600px;
+        margin: 0 auto 1rem auto;
+    }
+    
+}
+
+@media only screen and (min-width: 960px) {
+    .header {
+        border-bottom: 1px solid #ffe; 
+    }
+    .header:before {
+        content: '';
+        display: block;
+        height: 1px;
+        background-color: #ffe;
+        position: relative;
+        top: 56px;
+    }
+
+    .top-header {
+        display: none;
+    }
+    .main-menu {
+        position: unset;
+        width: 100%;
+    }
+    .main-menu > img {
+        display: none;
+    }
+    .main-menu-links {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .main-menu-links > li {
+        border: none;
+        display: inline-block;
+        line-height: 2rem;
+        text-shadow: .1px .1px #fee;
+    }
+    .main-menu-links > li > a:hover {
+        color: var(--cor);
+    }
+
+    .main-footer-link > img + img {
+        display: block;
+    }
+    .main-footer-link > img:first-child {
+        position: absolute;
+        transition: opacity .8s ease;
+    }
+    .main-footer-link:hover > img:first-child {
+        opacity: 0;
+    }
+    .main-footer-logo {
+        display: block;
+        text-align: center;
+    }
+    
+    .btn:hover {
+        border: .1rem solid var(--cor);
+        box-shadow: 0 0 1px var(--cor);
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .container > div {
+        width: 33%;
+    }
+    .main-footer > .container > div + div {
+        margin-top: 0;
+    }
+    .mini-title {
+        font-size: 2rem;
+        margin-bottom: .75rem;
+    }
+    .mini-title::before {
+        height: 1.5rem;
+        margin-left: 0;
+        margin-right: .75rem;
+        width: .25rem;
+    }
+    .secao p {
+        font-size: 1.2rem;
+        width: 700px;
+    }
+    .sub-title {
+        font-size: 2.5rem;
+        margin: 2rem auto;
+        width: 768px;
+    }
+    .sub-title::before {
+        height: 2rem;
+        width: .25rem;
+    }
+    .sub-title::after {
+       margin-right: 0;
+    } 
+}
+
+@media only screen and (min-width: 1280px) {
+    .main-menu {
+        margin: 0 auto;
+        max-width: 1280px;
+    }
+    .container {
+        max-width: 1280px;
+    }
+}
 
 
 

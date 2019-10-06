@@ -11,8 +11,8 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
 
+    <header class="header">
         <div class="top-header">
             <i class="fas fa-bars fa-2x"></i>
             <img src="./images/logo-hooligan-hookah-footer.png" alt="">
@@ -24,7 +24,6 @@
                 <li><a href="/sobre.html">Sobre</a></li>
                 <li><a href="/produtos.html">Produtos</a></li>
                 <li><a href="/distribuidores.html">Distribuidores</a></li>
-                <li><a href="/galeria.html">Galeria</a></li>
                 <li><a href="/contato.html">Contato</a></li>
             </ul>
             <img src="./images/logo-hooligan-hookah-menu.png" alt="">
@@ -39,27 +38,29 @@
             <p>Disponível em diversos distribuidores do país!</p>
             <a class="btn" href="/distribuidores.html">clique e confira!</a>
         </div>
-
     </header>
 
-    <main class="container">
+    <main>
         
         <section class="produtos secao">
             <h2 class="sub-title">Produtos</h2>
             <div class="produtos-carrosel">
                 <div class="siema">
                     <div>
-                        <img src="./images/produtos-1.jpg" alt="">
+                        <img class="img-responsive" src="./images/produtos-1.jpg" alt="">
                     </div>
                     <div>
-                        <img src="./images/produtos-1.jpg" alt="">
+                        <img class="img-responsive" src="./images/produtos-2.jpg" alt="">
                     </div>
                     <div>
-                        <img src="./images/produtos-1.jpg" alt="">
+                        <img class="img-responsive" src="./images/produtos-3.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="img-responsive" src="./images/produtos-4.jpg" alt="">
                     </div>
                 </div>
-                <!-- <button class="prev" onclick="mySiema.prev()"></button>
-                <button class="next" onclick="mySiema.next()"></button> -->
+                <button class="prev btn" onclick="mySiema.prev()">&lt;&lt;</button>
+                <button class="next btn" onclick="mySiema.next()">&gt;&gt;</button>
             </div>
             <div class="center">
                 <p>Os nossos Roshs são feitos totalmente por um trabalho manual, que garante a máxima qualidade e cuidado com o produto. Deslize ou clique para conhecê-los.</p>
@@ -75,7 +76,7 @@
             </div>
         </section>
 
-        <section class="galeria secao">
+        <!-- <section class="galeria secao">
             <h2 class="sub-title">Galeria</h2>
             <a href="javascript:void(0)">
                 <img class="responsive" src="./images/banner-distribuidores.jpg" alt="Link para galeria de fotos do rosh Hooligan Hookah" title="Veja fotos do Zeffa Bowl">
@@ -84,41 +85,44 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sunt, et fuga non corrupti fugit quas tempora maiores reprehenderit, saepe a modi sit recusandae obcaecati illum temporibus unde veniam! Molestias!</p>
                 <a href="/galeria.html" class="btn">Ver mais</a>
             </div>
-        </section>
+        </section> -->
 
     </main>
 
     <footer>
         <article class="main-footer">
-            <div>
-                <h2 class="footer-headline">Contact us</h2>
-                <ul class="main-footer-list">
-                    <li>email: <a href="mailto:joao@hooliganhookah.com.br">joao@hooliganhookah.com.br</a></li>
-                    <li>Tel: <a href="tel:+551195376-2906">(11)953-762-906</a></li>
-                    <li>São Bernardo do Campo, SP</li>
-                </ul>
-            </div>
-    
-            <div class="main-footer-logo">
-                <img src="./images/logo-hooligan-hookah-menu.png" alt="Logo Hooligan Hookah" title="Hooligan HOOKAH®">
-            </div>
-    
-            <div>
-                <h2 class="footer-headline">Follow us</h2>
-                <div class="flex">
-                    <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
-                        <img src="./images/facebook-hooligan-hookah-48.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
-                        <img src="./images/facebook-hooligan-hookah-48-hover.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
-                    </a>
-                    <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
-                        <img src="./images/instagram-hooligan-hookah-48.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
-                        <img src="./images/instagram-hooligan-hookah-48-hover.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
-                    </a>
-                    <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
-                        <img src="./images/youtube-hooligan-hookah-48.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
-                        <img src="./images/youtube-hooligan-hookah-48-hover.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
-                    </a>
+            <div class="container">
+                <div>
+                    <h2 class="footer-headline">Contact us</h2>
+                    <ul class="main-footer-list">
+                        <li>email: <a href="mailto:joao@hooliganhookah.com.br">joao@hooliganhookah.com.br</a></li>
+                        <li>Tel: <a href="tel:+551195376-2906">(11)953-762-906</a></li>
+                        <li>São Bernardo do Campo, SP</li>
+                    </ul>
                 </div>
+        
+                <div class="main-footer-logo">
+                    <img src="./images/logo-hooligan-hookah-footer-300.png" alt="Logo Hooligan Hookah" title="Hooligan HOOKAH®">
+                </div>
+        
+                <div>
+                    <h2 class="footer-headline">Follow us</h2>
+                    <div class="flex">
+                        <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
+                            <img src="./images/facebook-hooligan-hookah-48.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
+                            <img src="./images/facebook-hooligan-hookah-48-hover.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
+                        </a>
+                        <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
+                            <img src="./images/instagram-hooligan-hookah-48.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
+                            <img src="./images/instagram-hooligan-hookah-48-hover.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
+                        </a>
+                        <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
+                            <img src="./images/youtube-hooligan-hookah-48.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
+                            <img src="./images/youtube-hooligan-hookah-48-hover.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </article>
         

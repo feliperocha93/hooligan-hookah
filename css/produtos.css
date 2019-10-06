@@ -42,6 +42,26 @@
     letter-spacing: .1rem;    
 }
 
+.product-img {
+    text-align: center;
+}
 .product-list {
     padding: 2rem 2.5rem;
+    text-align: center;
+}
+
+@media (min-width: 576px) and (max-width: 767.9px) {
+    
+}
+
+@media (min-width: 768px) and (max-width: 959.9px) {
+    
+}
+
+@media (min-width: 960px) and (max-width: 1279.9px) {
+
+}
+
+@media (min-width: 1280px) {
+
 }
