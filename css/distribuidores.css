@@ -1,6 +1,6 @@
 /* banner */
 .banner {
-    background: url(".././images/banner-distribuidores.jpg") no-repeat center;
+    background-image: url(".././images/banner-distribuidores.jpg");
 }
 .distribuidores {
     display: flex;

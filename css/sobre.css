@@ -1,6 +1,6 @@
 /* banner */
 .banner {
-    background: url(".././images/banner-sobre.jpg") no-repeat center;
+    background-image: url(".././images/banner-sobre.jpg");
 }
 .sobre-valores {
     display: flex;

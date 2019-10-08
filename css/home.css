@@ -1,6 +1,6 @@
 /* banner */
 .banner {
-    background: url(".././images/banner-home.jpg") no-repeat center;
+    background-image: url(".././images/banner-home.jpg");
 }
 .produtos-carrosel .btn {
     display: none;

@@ -1,6 +1,6 @@
 /* banner */
 .banner {
-    background: url(".././images/banner-produtos.jpg") no-repeat center;
+    background-image: url(".././images/banner-produtos.jpg");
 }
 .product-img {
     text-align: center;

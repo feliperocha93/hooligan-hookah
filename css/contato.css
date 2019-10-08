@@ -1,6 +1,6 @@
 /* banner */
 .banner {
-    background: url(".././images/banner-contato.jpg") no-repeat center;
+    background-image: url(".././images/banner-contato.jpg");
 }
 .contato-dados > ul {
     padding: 2rem 2.5rem;

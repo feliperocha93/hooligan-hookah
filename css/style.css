@@ -57,8 +57,9 @@
 
 /* M  A  I  N */
 .banner {
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    color: var(--branco);
     padding: 2rem 1.25rem;
     text-align: center;
 }
