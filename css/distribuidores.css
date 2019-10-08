@@ -1,51 +1,22 @@
 /* banner */
 .banner {
     background: url(".././images/banner-distribuidores.jpg") no-repeat center;
-    background-size: cover;
-    padding: 2rem 1.25rem;
-    color: var(--branco);
-    text-align: center;
 }
-.banner * {
-    margin-bottom: 1rem;
-}
-.banner > h1 {
-    font-size: 2.5rem;
-    text-transform: uppercase;
-}
-.banner > blockquote > p::after,
-.banner > blockquote > p::before {
-    content: '';
-    display: block;
-    margin: .375rem auto;
-    width: 30%;
-    height: 2px;
-    background-color: var(--branco);
-}
-.banner .banner-span-hash {
-    margin-left: 2px;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-style: normal;
-    text-shadow: 1px 1px var(--preto);
-}
-.banner .banner-span-text {
-    color: var(--cor);
-    font-size: 1.2rem;
-    font-weight: bold;
-    text-shadow: 1px 1px var(--preto);
-}
-.banner > blockquote > cite {
-    font-weight: bold;
-    font-style: normal;
-    text-transform: uppercase;
-    letter-spacing: .1rem;    
-}
-
 .distribuidores {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+.distribuidores-card > ul > li {
+    margin-bottom: .25rem;
+}
+.distribuidores-card > ul > li:last-child {
+    text-align: center;
+}
+.distribuidores-card > ul > li > a {
+    font-style: italic;
+    margin: 0 auto;
+    text-shadow: .1px .1px var(--color);
 }
 .distribuidores-container {
     width: 100%;
@@ -63,17 +34,6 @@
     margin-bottom: 1.5rem;
     width: 100%;    
 }
-.distribuidores-card > ul > li {
-    margin-bottom: .25rem;
-}
-.distribuidores-card > ul > li:last-child {
-    text-align: center;
-}
-.distribuidores-card > ul > li > a {
-    font-style: italic;
-    margin: 0 auto;
-    text-shadow: .1px .1px var(--color);
-}
 .distribuidores-title {
     font-size: 1.25rem;
     margin: .5rem;
@@ -86,20 +46,14 @@
         width: 600px;
     }
     .distribuidores-item {
-        border-right: 1px solid var(--branco);
         border-left: 1px solid var(--branco);
+        border-right: 1px solid var(--branco);
     }    
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {}
 
-}
+@media only screen and (min-width: 960px) {}
 
-@media only screen and (min-width: 960px) {
-    
-}
-
-@media only screen and (min-width: 1280px) {
-    
-}
+@media only screen and (min-width: 1280px) {}
 
