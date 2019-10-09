@@ -6,7 +6,7 @@
             "long": -50.2096
         },
         {   
-            "name": "SP",
+            "name": "kombat",
             "lat": -23.2489,
             "long": -46.6388
         },
@@ -15,10 +15,5 @@
             "lat": -18.5122,
             "long": -44.5555
         }
-    ],
-    "messages":
-        {
-            "error": "Desculpe :( Seu browser não suporta esta função",
-            "success": "O local mais próximo é"
-        }
+    ]
 }    

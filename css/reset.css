@@ -10,6 +10,7 @@ References: reset.css by Origamid, Bootstrap 4 reset and my project experience x
 } 
 html { 
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 body { 
     /* MONOSPACE: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace */
