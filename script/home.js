@@ -1,5 +1,5 @@
 const mySiema = new Siema({
-    // perPage: {
-    //   1024: 2,
-    // },
-  });
+  // perPage: {
+  //   1024: 2,
+  // },
+});
