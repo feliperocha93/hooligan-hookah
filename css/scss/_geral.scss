@@ -1,17 +1,9 @@
-:root {
-    --branco: #ffe;
-    --cinza: #605959;
-    --cor: #ff4747;
-    --preto: #000;
-    --preto2: rgba(0,0,0,.925);
-}
-
 /* H E A D E R */
 .header {
-    background-color: var(--preto);
+    background-color: $preto;
 }
 .main-menu { 
-    background-color: var(--preto);
+    background-color: $preto;
     height: 100%;
     left: -70%;
     position: fixed;
@@ -32,7 +24,7 @@
     margin-top: 2rem;
 }
 .main-menu-links > li {
-    border-bottom: 1px solid var(--cor);
+    border-bottom: 1px solid $cor;
     font-weight: bold;
     letter-spacing: .1rem;
     line-height: 3rem;
@@ -77,7 +69,7 @@
 }
 .banner > blockquote > p::after,
 .banner > blockquote > p::before {
-    background-color: var(--branco);
+    background-color: $branco;
     content: '';
     display: block;
     height: 2px;
@@ -93,20 +85,20 @@
     font-style: normal;
     font-weight: bold;
     margin-left: 2px;
-    text-shadow: 1px 1px var(--preto);
+    text-shadow: 1px 1px $preto;
 }
 .banner-span-text {
-    color: var(--cor);
+    color: $cor;
     font-size: 1.2rem;
     font-weight: bold;
-    text-shadow: 1px 1px var(--preto);
+    text-shadow: 1px 1px $preto;
 }
 .btn {
     background-color: transparent;
-    border: .1rem solid var(--branco);
+    border: .1rem solid $branco;
     border-radius: .25rem;
-    box-shadow: 0 0 1px var(--branco);
-    color: var(--branco);
+    box-shadow: 0 0 1px $branco;
+    color: $branco;
     cursor: pointer;
     display: inline-block;
     margin: 1rem auto;
@@ -133,7 +125,7 @@
     text-transform: uppercase;
 }
 .mini-title::before {
-    background: var(--cor);
+    background: $cor;
     content: '';
     display: inline-block;
     height: 1.2rem;
@@ -156,7 +148,7 @@
     text-transform: uppercase;
 }
 .sub-title::before {
-    background: var(--cor);
+    background: $cor;
     content: '';
     display: inline-block;
     height: 1.3rem;
@@ -172,10 +164,10 @@
     padding: 2rem 0;
 }
 .secao:nth-child(odd) {
-    background-color: var(--preto2);
+    background-color: $preto2;
 }
 .secao:nth-child(even) {
-    background-color: var(--preto);
+    background-color: $preto;
 }
 .secao p {
     padding: .5rem 2rem;
@@ -191,7 +183,7 @@
     text-transform: uppercase;
 }
 .footer-headline::after {
-    background: var(--cor);
+    background: $cor;
     content: '';
     display: block;
     height: 4px;
@@ -199,7 +191,7 @@
     width: 50%;
 }
 .main-footer {
-    background-color: var(--cinza);
+    background-color: $cinza;
 }
 .main-footer > .container > div + div {
     margin-top: 2rem;
@@ -213,7 +205,7 @@
     margin-right: 1rem;
 }
 .main-footer-list > li > a {
-    text-decoration: underline solid var(--branco);
+    text-decoration: underline solid $branco;
 }
 .main-footer-logo {
     display: none;
@@ -222,7 +214,7 @@
     display: none;
 }
 .rodape {
-    background-color: var(--preto);
+    background-color: $preto;
     font-size: .75rem;
     margin: 0;
     padding: 10px;
@@ -294,7 +286,7 @@
         text-shadow: .1px .1px #fee;
     }
     .main-menu-links > li > a:hover {
-        color: var(--cor);
+        color: $cor;
     }
     .top-header {
         display: none;
@@ -321,8 +313,8 @@
     
     /* MAIN */
     .btn:hover {
-        border: .1rem solid var(--cor);
-        box-shadow: 0 0 1px var(--cor);
+        border: .1rem solid $cor;
+        box-shadow: 0 0 1px $cor;
     }
     .container {
         display: flex;

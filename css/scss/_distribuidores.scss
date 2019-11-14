@@ -28,8 +28,8 @@
 }
 .distribuidores-item {
     background-color: #101010;
-    border-bottom: 1px solid var(--branco);
-    border-top: 1px solid var(--branco);
+    border-bottom: 1px solid $branco;
+    border-top: 1px solid $branco;
     height: 152px;
     margin-bottom: 1.5rem;
     width: 100%;    
@@ -49,8 +49,8 @@
         width: 600px;
     }
     .distribuidores-item {
-        border-left: 1px solid var(--branco);
-        border-right: 1px solid var(--branco);
+        border-left: 1px solid $branco;
+        border-right: 1px solid $branco;
     }    
 }
 
