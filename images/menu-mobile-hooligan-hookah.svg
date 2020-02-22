@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<path id="Layer" class="shp0" d="M4 10L28 10C29.1 10 30 9.1 30 8C30 6.9 29.1 6 28 6L4 6C2.9 6 2 6.9 2 8C2 9.1 2.9 10 4 10ZM28 14L4 14C2.9 14 2 14.9 2 16C2 17.1 2.9 18 4 18L28 18C29.1 18 30 17.1 30 16C30 14.9 29.1 14 28 14ZM28 22L4 22C2.9 22 2 22.9 2 24C2 25.1 2.9 26 4 26L28 26C29.1 26 30 25.1 30 24C30 22.9 29.1 22 28 22Z" />
+</svg>
