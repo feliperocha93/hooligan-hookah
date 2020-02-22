@@ -34,20 +34,14 @@
     transition: color .8s ease;
 }
 .top-header {
+    padding-top: 10px;
     height: 52px;
     text-align: center;
     width: 100%;
 }
-.top-header > * {
-    padding: 10px 15px;
-}
-.top-header > a {
-    display: inline-block;
-}
-.top-header .fa-bars {
-    left: 0;
+.top-header > #menuBtn {
+    left: 20px;
     position: absolute;
-    top: 0;
 }
 
 /* M  A  I  N */

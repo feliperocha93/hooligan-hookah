@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./css/style.css">
-    <script src="https://kit.fontawesome.com/1a10c0804e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+
     <title>Home</title>
 </head>
 <body>
 
     <header class="header">
         <div class="top-header">
-            <i class="fas fa-bars fa-2x"></i>
+            <a id="menuBtn" href="javascript:void(0)"><img src="./images/menu-mobile-hooligan-hookah.svg" alt="Menu Hamburguer da Hooligan Hookah"></a>
             <a href="/index.html"><img src="./images/logo-hooligan-hookah-footer.png" alt=""></a>
         </div>
         
@@ -74,17 +74,6 @@
             </div>
         </section>
 
-        <!-- <section class="galeria secao">
-            <h2 class="sub-title">Galeria</h2>
-            <a href="javascript:void(0)">
-                <img class="responsive" src="./images/banner-distribuidores.jpg" alt="Link para galeria de fotos do rosh Hooligan Hookah" title="Veja fotos do Zeffa Bowl">
-            </a>
-            <div class="center">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sunt, et fuga non corrupti fugit quas tempora maiores reprehenderit, saepe a modi sit recusandae obcaecati illum temporibus unde veniam! Molestias!</p>
-                <a href="/galeria.html" class="btn">Ver mais</a>
-            </div>
-        </section> -->
-
     </main>
 
     <footer>
@@ -126,7 +115,16 @@
         
         <p class="rodape">HOOLIGAN HOOKAH® - No mercado desde 2016</p>
     </footer>
-    <script src="./script/plugin/siema.min.js"></script>
+    <script src="./siema.min.js"></script>
     <script src="./main.js"></script>
+    <script>
+        const mySiema = new Siema({
+            loop: true,
+            perPage: {
+            1024: 1,
+            },
+        });
+    </script>
+
 </body>
 </html>

@@ -10,7 +10,7 @@ const uglify = require('gulp-uglify');
 // Função para compilar o Sass e adicionar os prefixos
 function compilaSass() {
   return gulp
-    .src('./css/scss/*.scss')
+    .src('./develop/scss/*.scss')
     .pipe(sass({
       outputStyle: 'compressed',
     }))
@@ -18,7 +18,7 @@ function compilaSass() {
       overrideBrowserslist: ['last 2 versions'],
       cascade: false,
     }))
-    .pipe(gulp.dest('./css/'))
+    .pipe(gulp.dest('./'))
     .pipe(browserSync.stream());
 }
 
@@ -28,7 +28,8 @@ gulp.task('sass', compilaSass);
 // Função para juntar o js
 function gulpJS() {
   return gulp
-    .src('script/js/*.js')
+    .src(['develop/script/api/*.js',
+          'develop/script/js/*.js'])
     .pipe(concat('main.js'))
     .pipe(babel({
       presets: ['@babel/env'],
@@ -55,8 +56,8 @@ gulp.task('browser-sync', browser);
 
 // função de watch do Gulp
 function watch() {
-  gulp.watch('css/scss/*.scss', compilaSass);
-  gulp.watch('script/js/*.js', gulpJS);
+  gulp.watch('./develop/scss/*.scss', compilaSass);
+  gulp.watch('./develop/script/*/*.js', gulpJS);
   gulp.watch(['*.html', '*.php']).on('change', browserSync.reload);
 }
 

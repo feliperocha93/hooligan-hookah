@@ -1,5 +1,5 @@
 {
-  const menuButton = document.querySelector('.top-header > i');
+  const menuButton = document.querySelector('#menuBtn');
   const mainMenu = document.querySelector('.main-menu');
   const events = ['click', 'touchstart'];
   const activeClass = 'active';
