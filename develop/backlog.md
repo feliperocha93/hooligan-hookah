@@ -1,7 +1,7 @@
 ## Imagens:
   */ Criar arquitetura na que faça sentido /*
-  - Verificar SEO dos arquivos
-  - Verificar possibilidade de otimização (JPG) - Se possível, breve estudo.
+  */ Verificar SEO dos arquivos /*
+  */ Verificar possibilidade de otimização /* <!-- Usei o https://tinypng.com/ -->
 
 ## Features:
   - Autoplay no Siema
@@ -34,3 +34,6 @@
 
 ## Teste Integrado com Cypress:
   - Clicar no link do menu e navegar para a página correta
+
+## Próxima versão:
+  - Um Carrosel para cada produto
