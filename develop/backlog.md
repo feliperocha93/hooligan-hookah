@@ -1,5 +1,5 @@
 ## Imagens:
-  - Criar arquitetura na que faça sentido
+  */ Criar arquitetura na que faça sentido /*
   - Verificar SEO dos arquivos
   - Verificar possibilidade de otimização (JPG) - Se possível, breve estudo.
 
