@@ -33,6 +33,10 @@
 .main-menu-links > li > a:hover {
     transition: color .8s ease;
 }
+.main-menu-links > li > a:hover,
+.main-menu-links > li > a.active {
+    color: $cor;
+}
 .top-header {
     padding-top: 10px;
     height: 52px;
@@ -283,9 +287,7 @@
         line-height: 2rem;
         text-shadow: .1px .1px #fee;
     }
-    .main-menu-links > li > a:hover {
-        color: $cor;
-    }
+     
     .top-header {
         display: none;
     }
