@@ -51,6 +51,9 @@
     padding: .25rem;
     width: 100%;
 }
+#assunto > option {
+    background-color: #131313;
+}
 
 @media only screen and (min-width: 576px) {
     .contato-dados > ul,

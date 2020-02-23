@@ -22,9 +22,10 @@ body {
     line-height: 1.4;
     text-align: left;
 }
-html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, button, em, figure, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main {
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, button, em, figure, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, footer, header, nav, section, main, select, option, textarea {
 	border: 0;
-	margin: 0;
+    margin: 0;
+    outline: none;
 	padding: 0;
     vertical-align: baseline;
 }
