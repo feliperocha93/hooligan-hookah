@@ -120,10 +120,12 @@
     <script>
         const mySiema = new Siema({
             loop: true,
+            duration: 350,
             perPage: {
             1024: 1,
             },
         });
+        setInterval(() => mySiema.next(), 3500);
     </script>
 
 </body>
