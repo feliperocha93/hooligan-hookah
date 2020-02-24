@@ -5,8 +5,25 @@
     padding: 2rem 2.5rem;
 }
 .contato-redes-sociais > div {
+    flex-direction: column;
+
     padding: 2rem 2.5rem;
 }
+.contato-redes-sociais > div > a {
+    position: relative;
+}
+.contato-redes-sociais > div > a::after {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 70%;
+}
+#contato-facebook::after { content: 'Confira a página do melhor rosh para arguile'; }
+#contato-instagram::after { content: 'Siga a Hooligan HOOKAH® no Instagram'; } 
+#contato-youtube::after { content: 'Conteúdo de narguile no YouTube'; }
+#contato-instagram { margin: 20px 0; }
+
 .form-contato {
     padding: .5rem 2rem;
 }
@@ -60,6 +77,9 @@
     .contato-redes-sociais > div,
     .form-contato {
         padding: 1rem 5rem;
+    }
+    .contato-redes-sociais > div > a::after { 
+        line-height: 48px;
     }
 }
 
