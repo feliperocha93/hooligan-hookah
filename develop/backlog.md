@@ -4,33 +4,33 @@
   */ Verificar possibilidade de otimização /* <!-- Usei o https://tinypng.com/ -->
 
 ## Features:
-  - Autoplay no Siema
-  - Classe Ativo no Menu
-  - Geolocation (Não tá achando o JSON)
+  */ Autoplay no Siema /*
+  */ Classe Ativo no Menu /*
+  - Geolocation (Não tá achando o JSON) <!-- Provavelmente não funciona sem https -->
   - Formulário (Retornar para página do Form, Substituir conteúdo por Mensagem de confirmação)
 
 ## Mobile: 
-  - Repensar Footer
+  */ Repensar Footer /*
 
 ## Desktop:
-  - Repensar Footer
+  */ Repensar Footer /*
   - Tamanhos de fonte
   - Controls do Carrosel
   - paddings
   - Verificar possibilidade de setar 100vh em algumas sections
 
 ## Produtos:
-  - Título do Banner
-  - Apenas dois produtos
-  - Refatorar descrição (Apenas um texto)
+  */ Título do Banner /*
+  */ Apenas dois produtos /*
+  */ Refatorar descrição (Apenas um texto) /*
 
 ## Distribuidores:
   - Repensar cards
   - Olhar Overflow-x Mobile
 
 ## Contato:
-  - Repensar Redes Sociais
-  - Editar o Select Assuntos no FALE CONOSCO
+  */ Repensar Redes Sociais /*
+  */ Editar o Select Assuntos no FALE CONOSCO /*
 
 ## Teste Integrado com Cypress:
   - Clicar no link do menu e navegar para a página correta

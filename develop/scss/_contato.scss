@@ -71,6 +71,9 @@
 #assunto > option {
     background-color: #131313;
 }
+.redes-sociais-link > img + img {
+    display: none;
+}
 
 @media only screen and (min-width: 576px) {
     .contato-dados > ul,
@@ -98,6 +101,16 @@
     .contato-redes-sociais > div,
     .form-contato {
         width: 700px;
+    }
+    .redes-sociais-link > img + img {
+        display: block;
+    }
+    .redes-sociais-link > img:first-child {
+        position: absolute;
+        transition: opacity .8s ease;
+    }
+    .redes-sociais-link:hover > img:first-child {
+        opacity: 0;
     }
 }
 
