@@ -1,0 +1,74 @@
+/* banner */
+.banner {
+    background-image: url(".././images/banners/banner-distribuidores-hooligan-hookah.jpg");
+}
+.distribuidores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.distribuidores-card > ul > li {
+    margin-bottom: .5rem;
+}
+.distribuidores-card > ul > li:last-child {
+    margin-top: .5rem;
+}
+.distribuidores-card > ul > li > a {
+    text-shadow: .1px .1px var(--color);
+    transition: color .8s ease;
+}
+.distribuidores-card > ul > li > a:hover {
+    color: $cor;
+}
+.distribuidores-card > ul > li + li {
+    font-size: 13px;
+}
+.distribuidores-card-icone {
+    margin-right: 5px;
+    width: 13px;
+}
+.distribuidores-container {
+    width: 100%;
+}
+.distribuidores-img {
+    float: left;
+    line-height: 0;
+    margin-right: 1rem;
+}
+.distribuidores-item {
+    background-color: #101010;
+    border-bottom: 1px solid $branco;
+    border-top: 1px solid $branco;
+    min-height: 152px;
+    margin-bottom: 1.5rem;
+    width: 100%;    
+}
+.distribuidores-item.active {
+    box-shadow: 0 0 10px #ffe;
+}
+.distribuidores-title {
+    font-size: 1.25rem;
+    margin: .5rem;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 576px) {
+    .distribuidores-container {
+        width: 600px;
+    }
+    .distribuidores-item {
+        border-left: 1px solid $branco;
+        border-right: 1px solid $branco;
+    }    
+}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 960px) {
+    .distribuidores-title {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1280px) {}
+

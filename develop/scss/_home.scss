@@ -1,0 +1,30 @@
+/* banner */
+.banner {
+    background-image: url(".././images/banners/banner-hooligan-hookah-pagina-oficial.jpg");
+}
+.produtos-carrosel .btn {
+    display: none;
+}
+.siema {
+    margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {
+    .produtos-carrosel {
+        margin: 0 auto;
+        width: 768px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .produtos-carrosel .btn {
+        display: inline-block;
+        padding: 0 .5rem;
+        position: relative;
+        top: -1.75rem;
+    }
+}
+
+@media only screen and (min-width: 1280px) {}
