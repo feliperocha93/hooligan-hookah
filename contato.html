@@ -11,7 +11,7 @@
     <header class="header">
         <div class="top-header">
             <a id="menuBtn"><img src="./images/menu-mobile-hooligan-hookah.svg" alt="Menu Hamburguer da Hooligan Hookah"></a>
-            <a href="/index.html"><img src="./images/logo-hooligan-hookah-footer.png" alt=""></a>
+            <a href="/index.html"><img src="./images/logo-hooligan-hookah-header.png" alt=""></a>
         </div>
         
         <nav class="main-menu">
@@ -20,7 +20,7 @@
                 <li><a href="/sobre.html">Sobre</a></li>
                 <li><a href="/produtos.html">Produtos</a></li>
                 <li><a href="/distribuidores.html">Distribuidores</a></li>
-                <li><a href="/contato.html">Contato</a></li>
+                <li><a class="active" href="/contato.html">Contato</a></li>
             </ul>
             <img src="./images/logo-hooligan-hookah-menu.png" alt="">
         </nav>
@@ -35,37 +35,9 @@
     </header>
 
     <main>
-        
-        <section class="secao contato-dados">
-            <h2 class="sub-title">Dados</h2>
-            <ul class="main-footer-list">
-                <li>Email: joao@hooliganhookah.com.br</li>
-                <li>Tel: (11)94258-2223</li>
-                <li>CEO: João Carlos Genuíno de Andrade</li>
-            </ul>
-        </section>
-        
-        <section class="secao contato-redes-sociais">
-            <h2 class="sub-title">Redes sociais</h2>
-            <p>A hooligan está presente nas redes sociais cebolhas alhos Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto nobis, nam incidunt cumque iste minima ipsam assumenda fugit saepe at corporis numquam repudiandae obcaecati veritatis repellat officia. Veniam, corrupti doloribus?</p>
-            <div class="flex">
-                <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
-                    <img src="./images/facebook-hooligan-hookah-48.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
-                    <img src="./images/facebook-hooligan-hookah-48-hover.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
-                </a>
-                <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
-                    <img src="./images/instagram-hooligan-hookah-48.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
-                    <img src="./images/instagram-hooligan-hookah-48-hover.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
-                </a>
-                <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
-                    <img src="./images/youtube-hooligan-hookah-48.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
-                    <img src="./images/youtube-hooligan-hookah-48-hover.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
-                </a>
-            </div>
-        </section>
 
         <section class="secao">
-            <h2 class="sub-title">Contato</h2>
+            <h2 class="sub-title">Fale Conosco</h2>
             <form class="form-contato" method="POST" data-netlify="true" action="/index.html" name="contact">
                 <label for="nome">Nome</label>
                 <input id="nome" name="nome" type="text">
@@ -75,14 +47,34 @@
                 <input id="telefone" name="telefone" type="tel">
                 <label for="assunto">Assunto</label>
                 <select id="assunto" name="assunto">
-                    <option value="Assunto1">Assunto 1</option>
-                    <option value="Assunto2">Assunto 2</option>
-                    <option value="Assunto3">Assunto 3</option>
+                    <option value="Contato Comercial">Contato Comercial</option>
+                    <option value="Sugestões">Sugestões</option>
+                    <option value="Zeffa Bowl">Zeffa Bowl</option>
+                    <option value="Zeffa Bowl 2.0">Zeffa Bowl 2.0</option>
                 </select>
                 <label for="mensagem">Mensagem</label>
                 <textarea name="mensagem" id="mensagem"></textarea>
                 <button type="submit" class="btn">Enviar</button>
             </form>
+        </section>
+        
+        <section class="secao contato-redes-sociais">
+            <h2 class="sub-title">Redes sociais</h2>
+            <p>Siga a Hooligan Hookah nas redes sociais para ficar por dentro de todas as novidades</p>
+            <div class="flex">
+                <a id="contato-facebook" href="https://www.facebook.com/HooliganHookah/" target="_blank" rel="nofollow" class="redes-sociais-link">
+                    <img src="./images/facebook-hooligan-hookah-48.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
+                    <img src="./images/facebook-hooligan-hookah-48-hover.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
+                </a>
+                <a id="contato-instagram" href="https://www.instagram.com/hooligan_hookah/" target="_blank" rel="nofollow" class="redes-sociais-link">
+                    <img src="./images/instagram-hooligan-hookah-48.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
+                    <img src="./images/instagram-hooligan-hookah-48-hover.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
+                </a>
+                <a id="contato-youtube" href="https://www.youtube.com/watch?v=tdAnj3EBTUE" target="_blank" rel="nofollow" class="redes-sociais-link">
+                    <img src="./images/youtube-hooligan-hookah-48.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
+                    <img src="./images/youtube-hooligan-hookah-48-hover.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
+                </a>
+            </div>
         </section>
 
         <section class="secao">
@@ -99,11 +91,42 @@
         <article class="main-footer">
             <div class="container">
                 <div>
-                    <h2 class="footer-headline">Contact us</h2>
+                    <h2 class="footer-headline">Contato</h2>
                     <ul class="main-footer-list">
-                        <li>email: <a href="mailto:joao@hooliganhookah.com.br">joao@hooliganhookah.com.br</a></li>
-                        <li>Tel: <a href="tel:+551195376-2906">(11)953-762-906</a></li>
-                        <li>São Bernardo do Campo, SP</li>
+                        <li>
+                            <img src="./images/facebook-hooligan-hookah-48.png" alt="Link para a página da Hooligan Hookah no Facebook">
+                            <a href="https://www.facebook.com/HooliganHookah/" target="_blank">
+                                Hooligan Hookah
+                            </a>
+                        </li>
+                        <li>
+                            <img src="./images/instagram-hooligan-hookah-48.png" alt="Link para o perfil da Hooligan Hookah no Instagram">
+                            <a href="https://www.instagram.com/hooligan_hookah/" target="_blank">
+                                @hooligan_hookah
+                            </a>
+                        </li>
+                        <li>
+                            <img src="./images/youtube-hooligan-hookah-48.png" alt="Link para o canal da Hooligan Hookah no Youtube">
+                            <a href="https://www.youtube.com/watch?v=tdAnj3EBTUE" target="_blank">
+                                Hooligan TV
+                            </a>
+                        </li>
+                        <li>
+                            <img src="./images/email-hooligan-hookah.svg" alt="Email oficial Hooligan Hookah">
+                            <a href="mailto:joao@hooliganhookah.com.br" target="_blank">
+                                joao@hooliganhookah.com.br
+                            </a>
+                        </li>
+                        <li>
+                            <img src="./images/telefone-hooligan-hookah.svg" alt="Telefone de contato Hooligan Hookah">
+                            <a href="tel:+5511970815656" target="_blank">
+                                (11)970-815-656
+                            </a>
+                        </li>
+                        <li>
+                            <img src="./images/endereco-hooligan-hookah.svg" alt="Localização Hooligan Hookah">
+                            São Bernardo do Campo, SP
+                        </li>
                     </ul>
                 </div>
         
@@ -111,24 +134,6 @@
                     <img src="./images/logo-hooligan-hookah-footer-300.png" alt="Logo Hooligan Hookah" title="Hooligan HOOKAH®">
                 </div>
         
-                <div>
-                    <h2 class="footer-headline">Follow us</h2>
-                    <div class="flex">
-                        <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
-                            <img src="./images/facebook-hooligan-hookah-48.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
-                            <img src="./images/facebook-hooligan-hookah-48-hover.png" alt="Link para a página da Hooligan Hookah no Facebook" title="Confira a página do melhor rosh para arguile">
-                        </a>
-                        <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
-                            <img src="./images/instagram-hooligan-hookah-48.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
-                            <img src="./images/instagram-hooligan-hookah-48-hover.png" alt="Link para o perfil da Hooligan Hookah no Instagram" title="Siga a Hooligan HOOKAH® no Instagram">
-                        </a>
-                        <a href="javascript:void(0)" target="_blank" rel="nofollow" class="main-footer-link">
-                            <img src="./images/youtube-hooligan-hookah-48.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
-                            <img src="./images/youtube-hooligan-hookah-48-hover.png" alt="Link para o canal da Hooligan Hookah no Youtube" title="Conteúdo de narguile no YouTube">
-                        </a>
-                    </div>
-                </div>
-
             </div>
         </article>
         
