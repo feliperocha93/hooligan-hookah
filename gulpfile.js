@@ -28,8 +28,7 @@ gulp.task('sass', compilaSass);
 // Função para juntar o js
 function gulpJS() {
   return gulp
-    .src(['develop/script/api/*.js',
-          'develop/script/js/*.js'])
+    .src('develop/script/*.js')
     .pipe(concat('main.js'))
     .pipe(babel({
       presets: ['@babel/env'],
@@ -57,7 +56,7 @@ gulp.task('browser-sync', browser);
 // função de watch do Gulp
 function watch() {
   gulp.watch('./develop/scss/*.scss', compilaSass);
-  gulp.watch('./develop/script/*/*.js', gulpJS);
+  gulp.watch('./develop/script/*.js', gulpJS);
   gulp.watch(['*.html', '*.php']).on('change', browserSync.reload);
 }
 

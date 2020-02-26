@@ -13,6 +13,7 @@
 
   // Cálculo de distância (fórmula retirada do google)
   function CalcRadiusDistance(lat1, lon1, lat2, lon2) {
+    console.log("Chamando CalcRadiusDistance");
     // const RADIUSMILES = 3961;
     const RADIUSKILOMETERS = 6373;
     const latR1 = deg2rad(lat1);
@@ -34,6 +35,8 @@
 
   // Obtém as coordenadas
   function showPosition(position) {
+    console.log("showPosition");
+    console.log(position);
     // const latitude = position.coords.latitude;
     const { coords: { latitude, longitude } } = position;
     let shorterDistance = 100000;
@@ -54,8 +57,9 @@
 
   // Verifica e utiliza a API de geolocation do navegador
   function getLocation(e) {
+    console.log("getLocation");
     e.preventDefault();
-    if (navigator.geolocation) {
+    if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition(showPosition);
     } else {
       // eslint-disable-next-line no-alert
@@ -67,7 +71,7 @@
   if (geoloBtn) {
     geoloBtn.addEventListener('click', getLocation);
     // Preencher array de localizações
-    fetch('/script/api/distribuidores.json')
+    fetch('./json/distribuidores.json')
       .then((response) => response.json())
       .then((json) => {
         json.locations.forEach((element) => locations.push(element));

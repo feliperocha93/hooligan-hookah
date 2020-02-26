@@ -14,10 +14,9 @@
 
 ## Desktop:
   */ Repensar Footer /*
-  - Tamanhos de fonte
-  - Controls do Carrosel
-  - paddings
-  - Verificar possibilidade de setar 100vh em algumas sections
+  */ Tamanhos de fonte /*
+   */ paddings /*
+  */ Verificar possibilidade de setar 100vh em algumas sections /* <!--Solucionado com 50vh no banner, para preencher visualmente o site -->
 
 ## Produtos:
   */ Título do Banner /*
@@ -25,8 +24,8 @@
   */ Refatorar descrição (Apenas um texto) /*
 
 ## Distribuidores:
-  - Repensar cards
-  - Olhar Overflow-x Mobile
+  */ Repensar cards /*
+  */ Olhar Overflow-x Mobile /*
 
 ## Contato:
   */ Repensar Redes Sociais /*
@@ -37,3 +36,5 @@
 
 ## Próxima versão:
   - Um Carrosel para cada produto
+  - Controls do Carrosel
+  - Informações no Carrosel da Home
