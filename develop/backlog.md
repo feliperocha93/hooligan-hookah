@@ -38,5 +38,6 @@
   - Controls do Carrosel
   - Informações no Carrosel da Home
   - Formulário: Emitir mensagem de confirmação
+  - Degradê no background mais claro
 
   - Refatorar função de geolocalização ($$)
