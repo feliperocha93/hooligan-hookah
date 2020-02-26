@@ -38,5 +38,9 @@
   - Controls do Carrosel
   - Informações no Carrosel da Home
   - Formulário: Emitir mensagem de confirmação
+  - Degradê no background mais claro
+  - Favicon
+  - Formato de telefone no footer
+  - Imagem do top-header menu mobile com qualidade
 
   - Refatorar função de geolocalização ($$)
