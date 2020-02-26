@@ -6,8 +6,7 @@
 ## Features:
   */ Autoplay no Siema /*
   */ Classe Ativo no Menu /*
-  - Geolocation (Não tá achando o JSON) <!-- Provavelmente não funciona sem https -->
-  - Formulário (Retornar para página do Form, Substituir conteúdo por Mensagem de confirmação)
+  */ Formulário (Retornar para página Contato) /*
 
 ## Mobile: 
   */ Repensar Footer /*
@@ -38,3 +37,6 @@
   - Um Carrosel para cada produto
   - Controls do Carrosel
   - Informações no Carrosel da Home
+  - Formulário: Emitir mensagem de confirmação
+
+  - Refatorar função de geolocalização ($$)
