@@ -322,6 +322,9 @@
     }
     
     /* MAIN */
+    .banner {
+        min-height: 50vh;
+    }
     .btn:hover {
         border: .1rem solid $cor;
         box-shadow: 0 0 1px $cor;
